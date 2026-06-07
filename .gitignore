@@ -1,0 +1,40 @@
+# Local data and generated content
+/data/
+/uploads/
+docs/
+outputs/
+tmp_*/
+source.docx
+tools/
+
+# Database: keep only the current schema/export file visible to Git
+database/*
+!database/
+!database/japanese-learning-db.sql
+
+# Local deployment/workspace files
+render.yaml
+frontend/.sixth/
+frontend/.vercel/
+frontend/public/listening/**/*.mp3
+
+# Logs and caches
+*.log
+*.out.log
+*.err.log
+*.pyc
+.codex_pydeps/
+__pycache__/
+
+# Build outputs and dependencies
+node_modules/
+dist/
+target/
+*.class
+*.jar
+*.war
+
+# Environment secrets
+.env
+.env.*
+!.env.example
