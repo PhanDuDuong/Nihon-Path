@@ -2,6 +2,9 @@
 /data/
 /uploads/
 docs/
+!docs/
+!docs/readme/
+!docs/readme/**
 outputs/
 tmp_*/
 source.docx
