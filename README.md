@@ -24,7 +24,6 @@ Website đã deploy: [https://nihonpath-zeta.vercel.app/](https://nihonpath-zeta
 - Frontend: React, Vite, React Router.
 - Backend: Java 17, Spring Boot, Spring Security, Spring Data JPA.
 - Database: MySQL.
-- Deploy frontend: Vercel.
 
 ## Cấu trúc dự án
 
@@ -52,8 +51,3 @@ cd backend
 ./mvnw spring-boot:run
 ```
 
-Backend đọc cấu hình qua biến môi trường hoặc file local trong `D:/secrets/`. Không commit mật khẩu, API key hoặc file cấu hình riêng của máy lên repo.
-
-## Ghi chú
-
-Repo này là phiên bản chính hiện tại của dự án NihonPath. Các file build, dependency, upload local và secret đều được bỏ qua bằng `.gitignore`.
